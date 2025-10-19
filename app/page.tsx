@@ -10,14 +10,14 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center">
+    <div className="flex flex-col items-center min-h-screen">
       <Navbar />
-      <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6">
+      <main className="flex-1 mx-auto px-4 sm:px-6 w-full max-w-7xl">
         <HeroSection />
 
-        <section className="py-12 md:py-24 space-y-8 w-full">
-          <div className="flex flex-col items-center text-center space-y-4">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projetos em Destaque</h2>
+        <section className="space-y-8 py-12 md:py-24 w-full">
+          <div className="flex flex-col items-center space-y-4 text-center">
+            <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl tracking-tighter">Projetos em Destaque</h2>
             <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">
               Conheça alguns dos meus trabalhos mais recentes e relevantes
             </p>
@@ -29,15 +29,15 @@ export default function Home() {
             <Link href="/projects">
               <Button variant="outline" className="gap-2">
                 Ver todos os projetos
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
           </div>
         </section>
 
-        <section className="py-12 md:py-24 space-y-8 bg-slate-50 rounded-lg w-full">
-          <div className="flex flex-col items-center text-center space-y-4">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Minhas Habilidades</h2>
+        <section className="space-y-8 bg-slate-50 py-12 md:py-24 rounded-lg w-full">
+          <div className="flex flex-col items-center space-y-4 text-center">
+            <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl tracking-tighter">Minhas Habilidades</h2>
             <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">Tecnologias e ferramentas que domino</p>
           </div>
 
@@ -47,53 +47,53 @@ export default function Home() {
             <Link href="/skills">
               <Button variant="outline" className="gap-2">
                 Ver todas as habilidades
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
           </div>
         </section>
 
         <section className="py-12 md:py-24 w-full">
-          <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="gap-6 lg:gap-12 grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Vamos trabalhar juntos?</h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl tracking-tighter">Vamos trabalhar juntos?</h2>
+              <p className="max-w-[600px] text-gray-500 lg:text-base/relaxed md:text-xl/relaxed xl:text-xl/relaxed">
                 Estou disponível para novos projetos e oportunidades. Entre em contato para discutirmos como posso
                 ajudar a transformar suas ideias em realidade.
               </p>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="mailto:thalis@example.com">
+              <div className="flex min-[400px]:flex-row flex-col gap-2">
+                <Link href="mailto:1thalisgabriel1@gmail.com">
                   <Button className="gap-2">
-                    <Mail className="h-4 w-4" />
+                    <Mail className="w-4 h-4" />
                     Entre em contato
                   </Button>
                 </Link>
                 <Link href="/about">
                   <Button variant="outline" className="gap-2">
                     Saiba mais sobre mim
-                    <ArrowRight className="h-4 w-4" />
+                    <ArrowRight className="w-4 h-4" />
                   </Button>
                 </Link>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <div className="grid gap-4">
+            <div className="flex justify-center items-center">
+              <div className="gap-4 grid">
                 <div className="flex gap-4">
-                  <Link href="https://github.com/thalisgabriel" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/apenasthalis" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="icon" className="rounded-full">
-                      <Github className="h-5 w-5" />
+                      <Github className="w-5 h-5" />
                       <span className="sr-only">GitHub</span>
                     </Button>
                   </Link>
-                  <Link href="https://linkedin.com/in/thalisgabriel" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/thalis-gabriel-6076a7357/" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="icon" className="rounded-full">
-                      <Linkedin className="h-5 w-5" />
+                      <Linkedin className="w-5 h-5" />
                       <span className="sr-only">LinkedIn</span>
                     </Button>
                   </Link>
-                  <Link href="mailto:thalis@example.com">
+                  <Link href="mailto:1thalisgabriel1@gmail.com">
                     <Button variant="outline" size="icon" className="rounded-full">
-                      <Mail className="h-5 w-5" />
+                      <Mail className="w-5 h-5" />
                       <span className="sr-only">Email</span>
                     </Button>
                   </Link>

@@ -5,52 +5,52 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
   return (
-    <footer className="border-t bg-background w-full">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between md:py-12">
+    <footer className="bg-background border-t w-full">
+      <div className="flex md:flex-row flex-col md:justify-between md:items-center gap-6 mx-auto px-4 sm:px-6 py-8 md:py-12 max-w-7xl">
         <div className="flex flex-col gap-2">
-          <Link href="/" className="text-lg font-bold">
+          <Link href="/" className="font-bold text-lg">
             Thalis Gabriel
           </Link>
-          <p className="text-sm text-gray-500">Desenvolvedor Full Stack apaixonado por criar soluções inovadoras</p>
+          <p className="text-gray-500 text-sm">Desenvolvedor Full Stack apaixonado por criar soluções inovadoras</p>
         </div>
 
         <nav className="flex gap-4 md:gap-6">
-          <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/" className="font-medium text-gray-500 hover:text-gray-900 text-sm">
             Início
           </Link>
-          <Link href="/about" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/about" className="font-medium text-gray-500 hover:text-gray-900 text-sm">
             Sobre
           </Link>
-          <Link href="/projects" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/projects" className="font-medium text-gray-500 hover:text-gray-900 text-sm">
             Projetos
           </Link>
-          <Link href="/skills" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/skills" className="font-medium text-gray-500 hover:text-gray-900 text-sm">
             Habilidades
           </Link>
         </nav>
 
         <div className="flex gap-4">
-          <Link href="https://github.com/thalisgabriel" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/apenasthalis" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="rounded-full">
-              <Github className="h-5 w-5" />
+              <Github className="w-5 h-5" />
               <span className="sr-only">GitHub</span>
             </Button>
           </Link>
-          <Link href="https://linkedin.com/in/thalisgabriel" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/thalis-gabriel-6076a7357/" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="rounded-full">
-              <Linkedin className="h-5 w-5" />
+              <Linkedin className="w-5 h-5" />
               <span className="sr-only">LinkedIn</span>
             </Button>
           </Link>
-          <Link href="mailto:thalis@example.com">
+          <Link href="mailto:1thalisgabriel1@gmail.com">
             <Button variant="ghost" size="icon" className="rounded-full">
-              <Mail className="h-5 w-5" />
+              <Mail className="w-5 h-5" />
               <span className="sr-only">Email</span>
             </Button>
           </Link>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 text-center text-sm text-gray-500 border-t">
+      <div className="mx-auto px-4 sm:px-6 py-4 border-t max-w-7xl text-gray-500 text-sm text-center">
         &copy; {new Date().getFullYear()} Thalis Gabriel. Todos os direitos reservados.
       </div>
     </footer>
