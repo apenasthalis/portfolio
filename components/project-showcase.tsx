@@ -45,15 +45,6 @@ export function ProjectShowcase({ limit }: ProjectShowcaseProps) {
     },
     {
       id: 5,
-      title: "Networker Group",
-      description: "Plataforma de Gestão para Grupos de Networking",
-      image: "/networkergroup.png?height=300&width=600",
-      tags: ["Next.Js", "TailwindCSS", "Typescript", "Node.js", "Express", "Prisma", "PostgreSQL", "Jest"],
-      demoUrl: "https://github.com/apenasthalis/networkerGroup",
-      githubUrl: "https://github.com/apenasthalis/networkerGroup",
-    },
-        {
-      id: 6,
       title: "API Multigateway",
       description: "API para gerenciamento de múltiplos gateways de pagamento",
       image: "/api-multigateway.png?height=300&width=600",
