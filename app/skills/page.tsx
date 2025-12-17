@@ -27,6 +27,7 @@ export default function SkillsPage() {
                 { name: "TypeScript", level: 95 },
                 { name: "React", level: 90 },
                 { name: "Next.js", level: 95 },
+                { name: "Vue.js", level: 90 },
                 { name: "Tailwind CSS", level: 80 },
                 { name: "Styled Components", level: 60 },
                 { name: "Bootstrap", level: 60 },
@@ -36,11 +37,13 @@ export default function SkillsPage() {
             <SkillCategory
               title="Back-end"
               skills={[
-                { name: "Node.js", level: 50 },
-                { name: "Express", level: 50 },
+                { name: "Node.js", level: 100 },
+                { name: "Express.js", level: 95 },
                 { name: "PHP", level: 100 },
-                { name: "Laravel", level: 95 },
+                { name: "Laravel", level: 100 },
                 { name: "Laminas", level: 95 },
+                { name: "Nest.js", level: 95 },
+                { name: "Prisma.js", level: 95 },
               ]}
             />
 
@@ -57,11 +60,12 @@ export default function SkillsPage() {
             <SkillCategory
               title="DevOps & Ferramentas"
               skills={[
-                { name: "Git", level: 90 },
+                { name: "Git", level: 95 },
                 { name: "Docker", level: 95 },
-                { name: "CI/CD", level: 50 },
+                { name: "CI/CD", level: 90 },
                 { name: "Jenkins", level: 50 },
                 { name: "Vault", level: 70 },
+                { name: "Rabbitmq", level: 80 },
               ]}
             />
           </div>
