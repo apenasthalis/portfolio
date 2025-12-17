@@ -85,7 +85,7 @@ export default function Home() {
                       <span className="sr-only">GitHub</span>
                     </Button>
                   </Link>
-                  <Link href="https://www.linkedin.com/in/thalis-gabriel-6076a7357/" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/thalis-gabriel/" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="icon" className="rounded-full">
                       <Linkedin className="w-5 h-5" />
                       <span className="sr-only">LinkedIn</span>

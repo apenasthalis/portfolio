@@ -76,13 +76,14 @@ export default function AboutPage() {
                         <h3 className="font-bold text-xl">Desenvolvedor Full Stack</h3>
                         <div className="flex items-center gap-1 text-gray-500">
                           <Calendar className="w-4 h-4" />
-                          <span>2022 - Presente</span>
+                          <span>2023 - 2025 (2 anos e 11 meses)</span>
                         </div>
                       </div>
                       <p className="text-gray-500">Empresa Ipê Web</p>
                       <p>
-                        Desenvolvimento de aplicações web utilizando PHP, Laravel, Zend/Laminas, JQuery, Javascript e bancos de dados SQL e NoSQL.
-                        {/* Implementação de APIs RESTful e integração com serviços de terceiros. */}
+                        Manuntenção de sistema legado utilizando PHP, Zend/Laminas, JQuery, Javascript, TailwindCss, HTML, Javascript, Rabbitmq, Jenkins e bancos de dados SQL e NoSQL.
+                        Desenvolvimento de aplicações web utilizando PHP, Laravel, TailwindCss, Typescript, Node.Js, Vue.Js, Next.Js, Rabbitmq e bancos de dados SQL e NoSQL.
+                        Implementação de APIs RESTful e integração com serviços de terceiros.
                       </p>
                     </div>
                   </div>
@@ -112,7 +113,7 @@ export default function AboutPage() {
                       </div>
                       <p className="text-gray-500">Universidade Uniasselvi</p>
                       <p>
-                        Formação em andamento em Sistemas De informação, com foco em desenvolvimento de software, algoritmos,
+                        Formação em andamento em Sistemas de Informação, com foco em desenvolvimento de software, algoritmos,
                         estruturas de dados e engenharia de software.
                       </p>
                     </div>
