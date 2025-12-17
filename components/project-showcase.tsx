@@ -52,6 +52,15 @@ export function ProjectShowcase({ limit }: ProjectShowcaseProps) {
       demoUrl: "https://github.com/apenasthalis/api-multi-gateway",
       githubUrl: "https://github.com/apenasthalis/api-multi-gateway",
     },
+        {
+      id: 6,
+      title: "Controle de Finanças",
+      description: "Aplicativo para gerenciamento financeiro pessoal",
+      image: "",
+      tags: ["PHP", "Laravel", "Composer", "Docker", "Nginx", "PostgreSQL"],
+      demoUrl: "",
+      githubUrl: "https://github.com/apenasthalis/finance-management-backend",
+    },
   ]
 
   const displayedProjects = limit ? projects.slice(0, limit) : projects
